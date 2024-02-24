@@ -1,0 +1,41 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: unset;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.gameboard {
+    width: 1200px; /* Пример ширины */
+    height: 800px; /* Пример высоты */
+    position: relative;
+    background-color: aliceblue;
+}
+
+.river {
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+}
+
+.hospital {
+    width: 100%;
+    height: 50px;
+    border-bottom: 10px dashed red;
+    position: absolute;
+    bottom: 0;
+}
+
+.creet {
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    cursor: grab;
+}
+
+.creets-counter {
+    padding: 15px;
+}
