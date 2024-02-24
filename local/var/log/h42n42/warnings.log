@@ -13,3 +13,6 @@ Feb 24 19:56:19: ocsigen:config: While parsing config file, tag <host>: No defau
 Feb 24 19:57:03: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "bajlaks-macbook-air.local"
 Feb 24 19:59:50: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "bajlaks-macbook-air.local"
 Feb 24 20:00:15: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "bajlaks-macbook-air.local"
+Feb 24 20:04:38: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "bajlaks-macbook-air.local"
+Feb 24 20:06:09: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "bajlaks-macbook-air.local"
+Feb 24 20:06:28: ocsigen:config: While parsing config file, tag <host>: No defaulthostname, assuming it is "bajlaks-macbook-air.local"

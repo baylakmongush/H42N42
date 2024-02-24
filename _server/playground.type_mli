@@ -1,7 +1,0 @@
-val __eliom__compilation_unit_id__ri0rZE : string
-val elt : [> Html_types.div ] Eliom_content.Html.D.elt
-val creets_counter_div : [> Html_types.div ] Eliom_content.Html.D.elt
-val _eliom_injected_ident_ri0rZE1 :
-  [> Html_types.div ] Eliom_content.Html.D.elt option ref
-val _eliom_injected_ident_ri0rZE2 :
-  [> Html_types.div ] Eliom_content.Html.D.elt option ref
