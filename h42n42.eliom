@@ -17,15 +17,26 @@ let main_service =
     ~meth:(Eliom_service.Get Eliom_parameter.unit)
     ()
 
+let panel =
+  div ~a:[a_class [""]] [
+    div ~a:[a_class ["panel"];] [
+      div ~a:[ a_class [ "river" ] ] [];
+      div ~a:[ a_class [ "hospital" ] ] [];
+    ]
+  ]
+
 let page =
       body
         [
-          div
-            ~a:[ a_class [ "gameboard" ] ]
-            [
-              div ~a:[ a_class [ "river" ] ] [];
-              div ~a:[ a_class [ "hospital" ] ] [];
+          div ~a:[a_class [""]] [
+            div ~a:[a_class ["title"]] [
+              h1 [txt "H42N42"]
             ];
+            panel;
+            div ~a:[a_class ["button_block"]] [
+              button ~a:[a_class ["button"]] [txt "Start"];
+            ]
+          ];
         ]
 
 let () =
